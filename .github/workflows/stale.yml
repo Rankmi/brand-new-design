@@ -15,7 +15,7 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           stale-pr-message: "Este PR está inactivo desde hace 7 días. Si no hay actividad en los próximos 3 días, será cerrado automáticamente."
-          close-pr-message: "Cerado por inactividad"
+          close-pr-message: "Cerrado por inactividad"
           days-before-pr-stale: 7
           days-before-pr-close: 3
           days-before-issue-stale: -1
